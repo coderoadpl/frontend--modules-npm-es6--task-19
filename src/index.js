@@ -1,10 +1,4 @@
-const add = (numbers) => {
-    // const a = numbers[0]
-    // const b = numbers[1]
-    const [a, b] = numbers
-
-    return  a + b
-}
+const add = ([a, b]) => a + b
 
 const numbers = [1, 3]
 
